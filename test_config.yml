@@ -1,0 +1,40 @@
+runs: 10
+generator_seed: 20
+output_dir: ""
+scenario_recorder_config:
+  scenario_length: 20
+  fixed_delta: 0.05
+  traffic: true
+  vehicles: 50
+  traffic_speed_differential: 10
+  town: Town10HD
+  address: localhost
+  port: 20001
+transfer_config:
+  input_rgb: '121213'
+  prompt_path: ''
+  guidance: 3
+  seg:
+    name: seg
+    enabled: false
+    control_path: ''
+    mask_path: ''
+    weight: 0.0
+  edge:
+    name: edge
+    enabled: false
+    control_path: ''
+    mask_path: ''
+    weight: 0.0
+  depth:
+    name: depth
+    enabled: false
+    control_path: ''
+    mask_path: ''
+    weight: 0.0
+  vis:
+    name: vis
+    enabled: false
+    control_path: ''
+    mask_path: ''
+    weight: 0.0
